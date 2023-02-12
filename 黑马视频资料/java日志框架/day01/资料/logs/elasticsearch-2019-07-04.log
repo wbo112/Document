@@ -1,0 +1,268 @@
+[2019-07-04T10:31:28,194][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-07-04T10:31:28,494][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] using [1] data paths, mounts [[(D:)]], net usable_space [76.7gb], net total_space [351.4gb], spins? [unknown], types [NTFS]
+[2019-07-04T10:31:28,495][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-07-04T10:31:28,708][INFO ][o.e.n.Node               ] node name [YKEq7Xp] derived from node ID [YKEq7XpeQ9C1X6KNw0Z6Bg]; set [node.name] to override
+[2019-07-04T10:31:28,709][INFO ][o.e.n.Node               ] version[5.6.8], pid[10568], build[688ecce/2018-02-16T16:46:30.010Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2019-07-04T10:31:28,710][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\elasticsearch-5.6.8]
+[2019-07-04T10:31:31,209][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [aggs-matrix-stats]
+[2019-07-04T10:31:31,209][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [ingest-common]
+[2019-07-04T10:31:31,209][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-expression]
+[2019-07-04T10:31:31,210][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-groovy]
+[2019-07-04T10:31:31,223][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-mustache]
+[2019-07-04T10:31:31,223][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-painless]
+[2019-07-04T10:31:31,224][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [parent-join]
+[2019-07-04T10:31:31,225][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [percolator]
+[2019-07-04T10:31:31,225][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [reindex]
+[2019-07-04T10:31:31,225][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty3]
+[2019-07-04T10:31:31,226][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty4]
+[2019-07-04T10:31:31,230][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded plugin [analysis-ik]
+[2019-07-04T10:31:37,276][INFO ][o.e.d.DiscoveryModule    ] [YKEq7Xp] using discovery type [zen]
+[2019-07-04T10:31:38,496][INFO ][o.e.n.Node               ] initialized
+[2019-07-04T10:31:38,497][INFO ][o.e.n.Node               ] [YKEq7Xp] starting ...
+[2019-07-04T10:31:42,145][INFO ][o.e.t.TransportService   ] [YKEq7Xp] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-07-04T10:31:45,323][INFO ][o.e.c.s.ClusterService   ] [YKEq7Xp] new_master {YKEq7Xp}{YKEq7XpeQ9C1X6KNw0Z6Bg}{jbaeke9lRma2c5t3GNd6VA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-07-04T10:31:45,530][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-07-04T10:31:45,532][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\plugins\analysis-ik\config\IKAnalyzer.cfg.xml
+[2019-07-04T10:31:46,373][INFO ][o.e.g.GatewayService     ] [YKEq7Xp] recovered [1] indices into cluster_state
+[2019-07-04T10:31:47,677][INFO ][o.e.c.r.a.AllocationService] [YKEq7Xp] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog1][1]] ...]).
+[2019-07-04T10:31:47,782][INFO ][o.e.h.n.Netty4HttpServerTransport] [YKEq7Xp] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-07-04T10:31:47,782][INFO ][o.e.n.Node               ] [YKEq7Xp] started
+[2019-07-04T10:58:07,621][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2019-07-04T10:58:07,624][INFO ][o.e.n.Node               ] [YKEq7Xp] stopping ...
+[2019-07-04T10:58:07,672][INFO ][o.e.n.Node               ] [YKEq7Xp] stopped
+[2019-07-04T10:58:07,673][INFO ][o.e.n.Node               ] [YKEq7Xp] closing ...
+[2019-07-04T10:58:07,710][INFO ][o.e.n.Node               ] [YKEq7Xp] closed
+[2019-07-04T10:58:21,349][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-07-04T10:58:21,493][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] using [1] data paths, mounts [[(D:)]], net usable_space [76.7gb], net total_space [351.4gb], spins? [unknown], types [NTFS]
+[2019-07-04T10:58:21,494][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-07-04T10:58:21,588][INFO ][o.e.n.Node               ] node name [YKEq7Xp] derived from node ID [YKEq7XpeQ9C1X6KNw0Z6Bg]; set [node.name] to override
+[2019-07-04T10:58:21,588][INFO ][o.e.n.Node               ] version[5.6.8], pid[13904], build[688ecce/2018-02-16T16:46:30.010Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2019-07-04T10:58:21,589][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\elasticsearch-5.6.8]
+[2019-07-04T10:58:22,819][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [aggs-matrix-stats]
+[2019-07-04T10:58:22,819][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [ingest-common]
+[2019-07-04T10:58:22,819][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-expression]
+[2019-07-04T10:58:22,820][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-groovy]
+[2019-07-04T10:58:22,820][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-mustache]
+[2019-07-04T10:58:22,821][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-painless]
+[2019-07-04T10:58:22,821][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [parent-join]
+[2019-07-04T10:58:22,821][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [percolator]
+[2019-07-04T10:58:22,822][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [reindex]
+[2019-07-04T10:58:22,822][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty3]
+[2019-07-04T10:58:22,823][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty4]
+[2019-07-04T10:58:22,824][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded plugin [analysis-ik]
+[2019-07-04T10:58:26,715][INFO ][o.e.d.DiscoveryModule    ] [YKEq7Xp] using discovery type [zen]
+[2019-07-04T10:58:27,653][INFO ][o.e.n.Node               ] initialized
+[2019-07-04T10:58:27,654][INFO ][o.e.n.Node               ] [YKEq7Xp] starting ...
+[2019-07-04T10:58:31,231][INFO ][o.e.t.TransportService   ] [YKEq7Xp] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-07-04T10:58:34,437][INFO ][o.e.c.s.ClusterService   ] [YKEq7Xp] new_master {YKEq7Xp}{YKEq7XpeQ9C1X6KNw0Z6Bg}{fUBb5J0JQvWO1QukZVIHww}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-07-04T10:58:34,525][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-07-04T10:58:34,526][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\plugins\analysis-ik\config\IKAnalyzer.cfg.xml
+[2019-07-04T10:58:34,961][INFO ][o.w.a.d.Monitor          ] [Dict Loading] my.dic
+[2019-07-04T10:58:34,963][ERROR][o.w.a.d.Monitor          ] ik-analyzer
+java.io.FileNotFoundException: D:\elasticsearch-5.6.8\plugins\analysis-ik\config\my.dic (系统找不到指定的文件。)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_131]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_131]
+	at org.wltea.analyzer.dic.Dictionary.loadExtDict(Dictionary.java:396) ~[?:?]
+	at org.wltea.analyzer.dic.Dictionary.loadMainDict(Dictionary.java:378) ~[?:?]
+	at org.wltea.analyzer.dic.Dictionary.initial(Dictionary.java:151) ~[?:?]
+	at org.wltea.analyzer.cfg.Configuration.<init>(Configuration.java:40) ~[?:?]
+	at org.elasticsearch.index.analysis.IkTokenizerFactory.<init>(IkTokenizerFactory.java:15) ~[?:?]
+	at org.elasticsearch.index.analysis.IkTokenizerFactory.getIkSmartTokenizerFactory(IkTokenizerFactory.java:23) ~[?:?]
+	at org.elasticsearch.index.analysis.AnalysisRegistry.buildMapping(AnalysisRegistry.java:361) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.index.analysis.AnalysisRegistry.buildTokenizerFactories(AnalysisRegistry.java:176) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.index.analysis.AnalysisRegistry.build(AnalysisRegistry.java:154) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.index.IndexService.<init>(IndexService.java:145) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.index.IndexModule.newIndexService(IndexModule.java:363) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.indices.IndicesService.createIndexService(IndicesService.java:448) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.indices.IndicesService.verifyIndexMetadata(IndicesService.java:481) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.gateway.Gateway.performStateRecovery(Gateway.java:135) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.gateway.GatewayService$1.doRun(GatewayService.java:229) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:674) [elasticsearch-5.6.8.jar:5.6.8]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.6.8.jar:5.6.8]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_131]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[2019-07-04T10:58:35,324][INFO ][o.e.g.GatewayService     ] [YKEq7Xp] recovered [1] indices into cluster_state
+[2019-07-04T10:58:36,168][INFO ][o.e.c.r.a.AllocationService] [YKEq7Xp] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog1][0]] ...]).
+[2019-07-04T10:58:37,724][INFO ][o.e.h.n.Netty4HttpServerTransport] [YKEq7Xp] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-07-04T10:58:37,725][INFO ][o.e.n.Node               ] [YKEq7Xp] started
+[2019-07-04T11:00:11,221][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2019-07-04T11:00:11,226][INFO ][o.e.n.Node               ] [YKEq7Xp] stopping ...
+[2019-07-04T11:00:11,277][INFO ][o.e.n.Node               ] [YKEq7Xp] stopped
+[2019-07-04T11:00:11,277][INFO ][o.e.n.Node               ] [YKEq7Xp] closing ...
+[2019-07-04T11:00:11,285][INFO ][o.e.n.Node               ] [YKEq7Xp] closed
+[2019-07-04T11:01:07,652][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-07-04T11:01:07,828][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] using [1] data paths, mounts [[(D:)]], net usable_space [76.7gb], net total_space [351.4gb], spins? [unknown], types [NTFS]
+[2019-07-04T11:01:07,829][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-07-04T11:01:07,907][INFO ][o.e.n.Node               ] node name [YKEq7Xp] derived from node ID [YKEq7XpeQ9C1X6KNw0Z6Bg]; set [node.name] to override
+[2019-07-04T11:01:07,908][INFO ][o.e.n.Node               ] version[5.6.8], pid[12952], build[688ecce/2018-02-16T16:46:30.010Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2019-07-04T11:01:07,908][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\elasticsearch-5.6.8]
+[2019-07-04T11:01:09,055][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [aggs-matrix-stats]
+[2019-07-04T11:01:09,055][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [ingest-common]
+[2019-07-04T11:01:09,056][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-expression]
+[2019-07-04T11:01:09,056][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-groovy]
+[2019-07-04T11:01:09,056][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-mustache]
+[2019-07-04T11:01:09,057][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-painless]
+[2019-07-04T11:01:09,058][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [parent-join]
+[2019-07-04T11:01:09,058][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [percolator]
+[2019-07-04T11:01:09,059][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [reindex]
+[2019-07-04T11:01:09,060][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty3]
+[2019-07-04T11:01:09,060][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty4]
+[2019-07-04T11:01:09,061][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded plugin [analysis-ik]
+[2019-07-04T11:01:12,272][INFO ][o.e.d.DiscoveryModule    ] [YKEq7Xp] using discovery type [zen]
+[2019-07-04T11:01:12,877][INFO ][o.e.n.Node               ] initialized
+[2019-07-04T11:01:12,878][INFO ][o.e.n.Node               ] [YKEq7Xp] starting ...
+[2019-07-04T11:01:15,768][INFO ][o.e.t.TransportService   ] [YKEq7Xp] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-07-04T11:01:18,963][INFO ][o.e.c.s.ClusterService   ] [YKEq7Xp] new_master {YKEq7Xp}{YKEq7XpeQ9C1X6KNw0Z6Bg}{dWdMbVVzQ6eQSuajyUT7Qg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-07-04T11:01:19,040][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-07-04T11:01:19,043][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\plugins\analysis-ik\config\IKAnalyzer.cfg.xml
+[2019-07-04T11:01:19,371][INFO ][o.w.a.d.Monitor          ] [Dict Loading] my.dic
+[2019-07-04T11:01:19,606][INFO ][o.e.g.GatewayService     ] [YKEq7Xp] recovered [1] indices into cluster_state
+[2019-07-04T11:01:20,322][INFO ][o.e.c.r.a.AllocationService] [YKEq7Xp] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog1][4]] ...]).
+[2019-07-04T11:01:21,103][INFO ][o.e.h.n.Netty4HttpServerTransport] [YKEq7Xp] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-07-04T11:01:21,103][INFO ][o.e.n.Node               ] [YKEq7Xp] started
+[2019-07-04T11:02:09,669][INFO ][o.e.n.Node               ] [YKEq7Xp] stopping ...
+[2019-07-04T11:02:09,726][INFO ][o.e.n.Node               ] [YKEq7Xp] stopped
+[2019-07-04T11:02:09,729][INFO ][o.e.n.Node               ] [YKEq7Xp] closing ...
+[2019-07-04T11:02:09,736][INFO ][o.e.n.Node               ] [YKEq7Xp] closed
+[2019-07-04T11:03:32,647][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-07-04T11:03:32,810][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] using [1] data paths, mounts [[(D:)]], net usable_space [76.7gb], net total_space [351.4gb], spins? [unknown], types [NTFS]
+[2019-07-04T11:03:32,811][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-07-04T11:03:32,878][INFO ][o.e.n.Node               ] node name [YKEq7Xp] derived from node ID [YKEq7XpeQ9C1X6KNw0Z6Bg]; set [node.name] to override
+[2019-07-04T11:03:32,879][INFO ][o.e.n.Node               ] version[5.6.8], pid[13684], build[688ecce/2018-02-16T16:46:30.010Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2019-07-04T11:03:32,879][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\elasticsearch-5.6.8]
+[2019-07-04T11:03:34,033][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [aggs-matrix-stats]
+[2019-07-04T11:03:34,034][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [ingest-common]
+[2019-07-04T11:03:34,034][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-expression]
+[2019-07-04T11:03:34,034][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-groovy]
+[2019-07-04T11:03:34,035][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-mustache]
+[2019-07-04T11:03:34,035][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-painless]
+[2019-07-04T11:03:34,036][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [parent-join]
+[2019-07-04T11:03:34,037][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [percolator]
+[2019-07-04T11:03:34,037][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [reindex]
+[2019-07-04T11:03:34,038][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty3]
+[2019-07-04T11:03:34,039][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty4]
+[2019-07-04T11:03:34,040][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded plugin [analysis-ik]
+[2019-07-04T11:03:37,269][INFO ][o.e.d.DiscoveryModule    ] [YKEq7Xp] using discovery type [zen]
+[2019-07-04T11:03:37,888][INFO ][o.e.n.Node               ] initialized
+[2019-07-04T11:03:37,890][INFO ][o.e.n.Node               ] [YKEq7Xp] starting ...
+[2019-07-04T11:03:40,790][INFO ][o.e.t.TransportService   ] [YKEq7Xp] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-07-04T11:03:43,879][INFO ][o.e.c.s.ClusterService   ] [YKEq7Xp] new_master {YKEq7Xp}{YKEq7XpeQ9C1X6KNw0Z6Bg}{NeJ-i4khR0qkBu-fhsNYeQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-07-04T11:03:43,966][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-07-04T11:03:43,968][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\plugins\analysis-ik\config\IKAnalyzer.cfg.xml
+[2019-07-04T11:03:44,324][INFO ][o.w.a.d.Monitor          ] [Dict Loading] my.dic
+[2019-07-04T11:03:44,547][INFO ][o.e.g.GatewayService     ] [YKEq7Xp] recovered [1] indices into cluster_state
+[2019-07-04T11:03:45,207][INFO ][o.e.c.r.a.AllocationService] [YKEq7Xp] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog1][4]] ...]).
+[2019-07-04T11:03:45,929][INFO ][o.e.h.n.Netty4HttpServerTransport] [YKEq7Xp] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-07-04T11:03:45,929][INFO ][o.e.n.Node               ] [YKEq7Xp] started
+[2019-07-04T11:05:43,235][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2019-07-04T11:05:43,238][INFO ][o.e.n.Node               ] [YKEq7Xp] stopping ...
+[2019-07-04T11:05:43,288][INFO ][o.e.n.Node               ] [YKEq7Xp] stopped
+[2019-07-04T11:05:43,288][INFO ][o.e.n.Node               ] [YKEq7Xp] closing ...
+[2019-07-04T11:05:43,298][INFO ][o.e.n.Node               ] [YKEq7Xp] closed
+[2019-07-04T11:05:50,041][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-07-04T11:05:50,213][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] using [1] data paths, mounts [[(D:)]], net usable_space [76.7gb], net total_space [351.4gb], spins? [unknown], types [NTFS]
+[2019-07-04T11:05:50,215][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-07-04T11:05:50,336][INFO ][o.e.n.Node               ] node name [YKEq7Xp] derived from node ID [YKEq7XpeQ9C1X6KNw0Z6Bg]; set [node.name] to override
+[2019-07-04T11:05:50,337][INFO ][o.e.n.Node               ] version[5.6.8], pid[13652], build[688ecce/2018-02-16T16:46:30.010Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2019-07-04T11:05:50,337][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\elasticsearch-5.6.8]
+[2019-07-04T11:05:51,435][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [aggs-matrix-stats]
+[2019-07-04T11:05:51,436][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [ingest-common]
+[2019-07-04T11:05:51,436][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-expression]
+[2019-07-04T11:05:51,437][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-groovy]
+[2019-07-04T11:05:51,437][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-mustache]
+[2019-07-04T11:05:51,438][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-painless]
+[2019-07-04T11:05:51,439][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [parent-join]
+[2019-07-04T11:05:51,440][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [percolator]
+[2019-07-04T11:05:51,440][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [reindex]
+[2019-07-04T11:05:51,441][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty3]
+[2019-07-04T11:05:51,442][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty4]
+[2019-07-04T11:05:51,444][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded plugin [analysis-ik]
+[2019-07-04T11:05:54,623][INFO ][o.e.d.DiscoveryModule    ] [YKEq7Xp] using discovery type [zen]
+[2019-07-04T11:05:55,235][INFO ][o.e.n.Node               ] initialized
+[2019-07-04T11:05:55,235][INFO ][o.e.n.Node               ] [YKEq7Xp] starting ...
+[2019-07-04T11:05:58,176][INFO ][o.e.t.TransportService   ] [YKEq7Xp] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-07-04T11:06:01,253][INFO ][o.e.c.s.ClusterService   ] [YKEq7Xp] new_master {YKEq7Xp}{YKEq7XpeQ9C1X6KNw0Z6Bg}{GM9lpFPhQ2eA9GiqHYJ8gA}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-07-04T11:06:01,333][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-07-04T11:06:01,335][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\plugins\analysis-ik\config\IKAnalyzer.cfg.xml
+[2019-07-04T11:06:01,695][INFO ][o.w.a.d.Monitor          ] [Dict Loading] my.dic
+[2019-07-04T11:06:01,954][INFO ][o.e.g.GatewayService     ] [YKEq7Xp] recovered [1] indices into cluster_state
+[2019-07-04T11:06:02,801][INFO ][o.e.c.r.a.AllocationService] [YKEq7Xp] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog1][4]] ...]).
+[2019-07-04T11:06:03,451][INFO ][o.e.h.n.Netty4HttpServerTransport] [YKEq7Xp] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-07-04T11:06:03,451][INFO ][o.e.n.Node               ] [YKEq7Xp] started
+[2019-07-04T11:06:51,338][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2019-07-04T11:06:51,342][INFO ][o.e.n.Node               ] [YKEq7Xp] stopping ...
+[2019-07-04T11:06:51,385][INFO ][o.e.n.Node               ] [YKEq7Xp] stopped
+[2019-07-04T11:06:51,385][INFO ][o.e.n.Node               ] [YKEq7Xp] closing ...
+[2019-07-04T11:06:51,395][INFO ][o.e.n.Node               ] [YKEq7Xp] closed
+[2019-07-04T11:06:57,950][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-07-04T11:06:58,127][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] using [1] data paths, mounts [[(D:)]], net usable_space [76.7gb], net total_space [351.4gb], spins? [unknown], types [NTFS]
+[2019-07-04T11:06:58,129][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-07-04T11:06:58,241][INFO ][o.e.n.Node               ] node name [YKEq7Xp] derived from node ID [YKEq7XpeQ9C1X6KNw0Z6Bg]; set [node.name] to override
+[2019-07-04T11:06:58,241][INFO ][o.e.n.Node               ] version[5.6.8], pid[13616], build[688ecce/2018-02-16T16:46:30.010Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2019-07-04T11:06:58,242][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\elasticsearch-5.6.8]
+[2019-07-04T11:06:59,384][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [aggs-matrix-stats]
+[2019-07-04T11:06:59,385][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [ingest-common]
+[2019-07-04T11:06:59,385][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-expression]
+[2019-07-04T11:06:59,386][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-groovy]
+[2019-07-04T11:06:59,388][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-mustache]
+[2019-07-04T11:06:59,390][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-painless]
+[2019-07-04T11:06:59,392][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [parent-join]
+[2019-07-04T11:06:59,393][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [percolator]
+[2019-07-04T11:06:59,393][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [reindex]
+[2019-07-04T11:06:59,394][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty3]
+[2019-07-04T11:06:59,394][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty4]
+[2019-07-04T11:06:59,396][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded plugin [analysis-ik]
+[2019-07-04T11:07:02,674][INFO ][o.e.d.DiscoveryModule    ] [YKEq7Xp] using discovery type [zen]
+[2019-07-04T11:07:03,285][INFO ][o.e.n.Node               ] initialized
+[2019-07-04T11:07:03,286][INFO ][o.e.n.Node               ] [YKEq7Xp] starting ...
+[2019-07-04T11:07:06,349][INFO ][o.e.t.TransportService   ] [YKEq7Xp] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-07-04T11:07:09,446][INFO ][o.e.c.s.ClusterService   ] [YKEq7Xp] new_master {YKEq7Xp}{YKEq7XpeQ9C1X6KNw0Z6Bg}{EaPb3cQNR4Ce-_kdhlbKPQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-07-04T11:07:09,559][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-07-04T11:07:09,561][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\plugins\analysis-ik\config\IKAnalyzer.cfg.xml
+[2019-07-04T11:07:09,919][INFO ][o.w.a.d.Monitor          ] [Dict Loading] my.dic
+[2019-07-04T11:07:10,123][INFO ][o.e.g.GatewayService     ] [YKEq7Xp] recovered [1] indices into cluster_state
+[2019-07-04T11:07:10,809][INFO ][o.e.c.r.a.AllocationService] [YKEq7Xp] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog1][4]] ...]).
+[2019-07-04T11:07:11,641][INFO ][o.e.h.n.Netty4HttpServerTransport] [YKEq7Xp] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-07-04T11:07:11,641][INFO ][o.e.n.Node               ] [YKEq7Xp] started
+[2019-07-04T11:07:48,526][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2019-07-04T11:07:48,530][INFO ][o.e.n.Node               ] [YKEq7Xp] stopping ...
+[2019-07-04T11:07:48,573][INFO ][o.e.n.Node               ] [YKEq7Xp] stopped
+[2019-07-04T11:07:48,573][INFO ][o.e.n.Node               ] [YKEq7Xp] closing ...
+[2019-07-04T11:07:48,582][INFO ][o.e.n.Node               ] [YKEq7Xp] closed
+[2019-07-04T11:07:56,196][INFO ][o.e.n.Node               ] [] initializing ...
+[2019-07-04T11:07:56,377][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] using [1] data paths, mounts [[(D:)]], net usable_space [76.7gb], net total_space [351.4gb], spins? [unknown], types [NTFS]
+[2019-07-04T11:07:56,378][INFO ][o.e.e.NodeEnvironment    ] [YKEq7Xp] heap size [1.9gb], compressed ordinary object pointers [true]
+[2019-07-04T11:07:56,496][INFO ][o.e.n.Node               ] node name [YKEq7Xp] derived from node ID [YKEq7XpeQ9C1X6KNw0Z6Bg]; set [node.name] to override
+[2019-07-04T11:07:56,497][INFO ][o.e.n.Node               ] version[5.6.8], pid[13376], build[688ecce/2018-02-16T16:46:30.010Z], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2019-07-04T11:07:56,497][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Delasticsearch, -Des.path.home=D:\elasticsearch-5.6.8]
+[2019-07-04T11:07:57,676][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [aggs-matrix-stats]
+[2019-07-04T11:07:57,676][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [ingest-common]
+[2019-07-04T11:07:57,677][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-expression]
+[2019-07-04T11:07:57,678][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-groovy]
+[2019-07-04T11:07:57,678][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-mustache]
+[2019-07-04T11:07:57,679][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [lang-painless]
+[2019-07-04T11:07:57,680][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [parent-join]
+[2019-07-04T11:07:57,681][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [percolator]
+[2019-07-04T11:07:57,681][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [reindex]
+[2019-07-04T11:07:57,682][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty3]
+[2019-07-04T11:07:57,683][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded module [transport-netty4]
+[2019-07-04T11:07:57,685][INFO ][o.e.p.PluginsService     ] [YKEq7Xp] loaded plugin [analysis-ik]
+[2019-07-04T11:08:01,007][INFO ][o.e.d.DiscoveryModule    ] [YKEq7Xp] using discovery type [zen]
+[2019-07-04T11:08:01,653][INFO ][o.e.n.Node               ] initialized
+[2019-07-04T11:08:01,654][INFO ][o.e.n.Node               ] [YKEq7Xp] starting ...
+[2019-07-04T11:08:04,663][INFO ][o.e.t.TransportService   ] [YKEq7Xp] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2019-07-04T11:08:07,744][INFO ][o.e.c.s.ClusterService   ] [YKEq7Xp] new_master {YKEq7Xp}{YKEq7XpeQ9C1X6KNw0Z6Bg}{XVSSU4S1TYS2n5qh2x7qTw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2019-07-04T11:08:07,821][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\config\analysis-ik\IKAnalyzer.cfg.xml
+[2019-07-04T11:08:07,823][INFO ][o.w.a.d.Monitor          ] try load config from D:\elasticsearch-5.6.8\plugins\analysis-ik\config\IKAnalyzer.cfg.xml
+[2019-07-04T11:08:08,171][INFO ][o.w.a.d.Monitor          ] [Dict Loading] my.dic
+[2019-07-04T11:08:08,412][INFO ][o.e.g.GatewayService     ] [YKEq7Xp] recovered [1] indices into cluster_state
+[2019-07-04T11:08:09,276][INFO ][o.e.c.r.a.AllocationService] [YKEq7Xp] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blog1][3]] ...]).
+[2019-07-04T11:08:09,863][INFO ][o.e.h.n.Netty4HttpServerTransport] [YKEq7Xp] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2019-07-04T11:08:09,864][INFO ][o.e.n.Node               ] [YKEq7Xp] started
+[2019-07-04T11:22:46,150][INFO ][o.e.b.Bootstrap          ] running graceful exit on windows
+[2019-07-04T11:22:46,157][INFO ][o.e.n.Node               ] [YKEq7Xp] stopping ...
+[2019-07-04T11:22:46,226][INFO ][o.e.n.Node               ] [YKEq7Xp] stopped
+[2019-07-04T11:22:46,226][INFO ][o.e.n.Node               ] [YKEq7Xp] closing ...
+[2019-07-04T11:22:46,235][INFO ][o.e.n.Node               ] [YKEq7Xp] closed
